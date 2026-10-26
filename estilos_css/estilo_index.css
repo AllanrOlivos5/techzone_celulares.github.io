@@ -67,12 +67,13 @@ input, select, label, button {
     font-family: "Arial Black", Gadget, sans-serif;
 }
 
-/* Recuadro contenedor del formulario de Login */
+/* Cuadro grande del formulario ubicado a la derecha */
 .login-box {
-    width: 350px;
+    width: 500px; /* Aumentamos el ancho del cuadro */
     border: 2px solid #000000;
-    padding: 25px;
-    margin-left: 50px; /* Para separarlo ligeramente de la izquierda */
+    padding: 30px;
+    float: right; /* Empuja todo el cuadro hacia la derecha de la pantalla */
+    margin-right: 80px; /* Deja un espacio de separación con el borde derecho */
     background-color: #ffffff;
 }
 
