@@ -106,3 +106,57 @@ input, select, label, button {
     cursor: pointer;
     float: right; /* Lo ubica a la derecha como en el mockup */
 }
+
+
+
+/* Estilo para el cuadro grande de la izquierda */
+.caja-izquierda {
+    width: 45%;
+    border: 2px solid #000000;
+    padding: 25px;
+    float: left;
+    margin-left: 20px;
+    background-color: #ffffff;
+}
+
+/* Estilo para el cuadro grande de la derecha */
+.caja-derecha {
+    width: 45%;
+    border: 2px solid #000000;
+    padding: 25px;
+    float: right;
+    margin-right: 20px;
+    height: 450px; /* Le da altura para simular el cuadro del mockup */
+    background-color: #ffffff;
+    position: relative;
+}
+
+/* Campos dentro de la caja izquierda */
+.caja-izquierda input[type="number"],
+.caja-izquierda input[type="password"],
+.caja-izquierda select {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+/* Enlace Olvide mi contraseña ubicado abajo a la derecha en su cuadro */
+.caja-derecha .link-olvide {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #e0e0e0;
+    border: 1px solid #000000;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Botón Enviar de la izquierda */
+.caja-izquierda .btn-ingresar {
+    padding: 8px 16px;
+    background-color: #e0e0e0;
+    border: 1px solid #000000;
+    cursor: pointer;
+    float: right;
+}
