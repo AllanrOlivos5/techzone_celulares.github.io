@@ -1,3 +1,14 @@
+/* Aplicamos Arial Black a toda la página por defecto */
+body {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+/* Título principal */
+h1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+/* Botón de Iniciar Sesión */
 a {
     display: inline-block;
     padding: 10px 20px;
@@ -6,17 +17,12 @@ a {
     text-decoration: none;
     border: 1px solid #000000;
     border-radius: 4px;
-    
-    
     float: right;
     margin-right: 20px;
-}
-
-
-h1 {
     font-family: "Arial Black", Gadget, sans-serif;
 }
 
+/* Contenedor general del menú de categorías */
 .menu-categorias {
     width: 200px;
     border: 2px solid #000000;
@@ -24,18 +30,24 @@ h1 {
     background-color: #f9f9f9;
 }
 
+/* Título de categorías */
+.menu-categorias h3 {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
 
+/* Quitamos viñetas de la lista */
 .menu-categorias ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-
+/* Espacio entre cada elemento de la lista */
 .menu-categorias li {
     margin-bottom: 8px;
 }
 
+/* Arreglamos los botones internos para que se acomoden uno debajo del otro */
 .menu-categorias li a {
     display: block;
     padding: 8px;
@@ -44,4 +56,7 @@ h1 {
     text-decoration: none;
     border: 1px solid #cccccc;
     text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    float: none; /* Asegura que no hereden el flotante de otros elementos */
+    margin-right: 0;
 }
