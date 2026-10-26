@@ -7,46 +7,33 @@
 	<link rel="stylesheet" href="estilos_css/estilo_index.css">
 </head>
 <body>
+<h1>TECH ZONE - celulares</h1>
+<br><br>
+<h1>Iniciar Sesión</h1>
+<form action="index.html">
 
-    <!-- Cuadro grande de la izquierda -->
-    <div class="caja-izquierda">
-        <h1>TECH ZONE - celulares</h1>
-        <br>
-        <h2>Iniciar Sesión</h2>
-        <label>Ingresa tus datos para acceder al sistema</label>
-        
-        <form action="index.html">
-            <br>
-            <label>Tipo de Documento</label>
-            <br>
-            <select name="login">
-                <option value="CC">Cédula de Ciudadanía</option>
-                <option value="CE">Cédula de Extranjería</option>
-                <option value="TI">Tarjeta de Identidad</option>
-                <option value="PEP">PEP</option>
-                <option value="">Permiso por Protección Temporal</option>
-            </select>
-            
-            <br><br>
-            <label>Número de documento</label>
-            <br>
-            <input type="number" name="id_usuario" required>
-            
-            <br><br>
-            <label>Password:</label>
-            <br>
-            <input type="password" name="password_usuario" required>
-            
-            <br><br>
-            <input type="submit" name="Ingresar" value="Enviar" class="btn-ingresar">
-        </form>
-    </div>
+	<label>Ingresa tus datos para acceder al sistema</label>
+	<br><br>
+	<select name="login">
+		<option value="CC">Cédula de Ciudadanía</option>
+		<option value="CE">Cédula de Extranjeria</option>
+		<option value="TI">Tarjeta de Identidad</option>
+		<option value="PEP">PEP</option>
+		<option value="">Permiso por Protección Temporal</option>
+    <select>
+	<br><br>	
+    <label>Numero de documento</label>
+    <br><br>
+    <input type="number" name="id_usuario"  required>
+    <br><br>
+    <label>Password:</label>
+    <input type="password" name="password_usuario"  required>
 
-    <!-- Cuadro grande de la derecha -->
-    <div class="caja-derecha">
-        <br><br><br><br><br><br><br><br><br>
-        <a href="recuperacion_password.html" class="link-olvide">Olvide mi contraseña</a>
-    </div>
+    <a href="recuperacion_password.html">Olvide mi contraseña</a>
+
+    <input type="submit" name="Ingresar">
+
+</form>
 
 </body>
 </html>
