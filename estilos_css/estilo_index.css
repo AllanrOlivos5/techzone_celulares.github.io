@@ -12,6 +12,32 @@ a {
     margin-right: 20px;
 }
 
-h1 {
-    font-family: "Arial Black", Gadget, sans-serif;
+
+.menu-categorias {
+    width: 200px;
+    border: 2px solid #000000;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+
+.menu-categorias ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu-categorias li {
+    margin-bottom: 8px;
+}
+
+.menu-categorias li a {
+    display: block;
+    padding: 8px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid #cccccc;
+    text-align: center;
 }
