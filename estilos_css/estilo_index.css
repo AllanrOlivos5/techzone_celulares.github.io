@@ -60,3 +60,48 @@ a {
     float: none; /* Asegura que no hereden el flotante de otros elementos */
     margin-right: 0;
 }
+
+
+/* Aplicar Arial Black a todas las entradas, textos y selectores */
+input, select, label, button {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+/* Recuadro contenedor del formulario de Login */
+.login-box {
+    width: 350px;
+    border: 2px solid #000000;
+    padding: 25px;
+    margin-left: 50px; /* Para separarlo ligeramente de la izquierda */
+    background-color: #ffffff;
+}
+
+/* Alineación de los campos dentro del Login */
+.login-box input[type="number"],
+.login-box input[type="password"],
+.login-box select {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+/* Enlace Olvidé mi contraseña */
+.link-olvide {
+    float: none;
+    display: inline;
+    padding: 0;
+    border: none;
+    background: none;
+    color: #0000ff;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+/* Botón de Ingresar */
+.btn-ingresar {
+    padding: 8px 16px;
+    background-color: #e0e0e0;
+    border: 1px solid #000000;
+    cursor: pointer;
+    float: right; /* Lo ubica a la derecha como en el mockup */
+}
