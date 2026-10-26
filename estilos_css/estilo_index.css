@@ -11,3 +11,7 @@ a {
     float: right;
     margin-right: 20px;
 }
+
+h1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
