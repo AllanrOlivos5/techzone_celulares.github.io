@@ -66,6 +66,8 @@ input, select, label, button {
     font-family: "Arial Black", Gadget, sans-serif;
 }
 
+}
+
 /* Cuadro grande del formulario de Login ubicado a la derecha */
 .caja-derecha {
     width: 500px;
