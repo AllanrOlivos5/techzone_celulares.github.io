@@ -8,7 +8,7 @@ h1 {
     font-family: "Arial Black", Gadget, sans-serif;
 }
 
-/* Botón de Iniciar Sesión */
+/* Botón de Iniciar Sesión en el Index */
 a {
     display: inline-block;
     padding: 10px 20px;
@@ -22,7 +22,7 @@ a {
     font-family: "Arial Black", Gadget, sans-serif;
 }
 
-/* Contenedor general del menú de categorías */
+/* Contenedor general del menú de categorías del Index */
 .menu-categorias {
     width: 200px;
     border: 2px solid #000000;
@@ -47,7 +47,7 @@ a {
     margin-bottom: 8px;
 }
 
-/* Arreglamos los botones internos para que se acomoden uno debajo del otro */
+/* Botones internos de las categorías */
 .menu-categorias li a {
     display: block;
     padding: 8px;
@@ -57,37 +57,37 @@ a {
     border: 1px solid #cccccc;
     text-align: center;
     font-family: "Arial Black", Gadget, sans-serif;
-    float: none; /* Asegura que no hereden el flotante de otros elementos */
+    float: none;
     margin-right: 0;
 }
 
-
-/* Aplicar Arial Black a todas las entradas, textos y selectores */
+/* Forzar Arial Black en las entradas, textos y selectores del formulario */
 input, select, label, button {
     font-family: "Arial Black", Gadget, sans-serif;
 }
 
-/* Cuadro grande del formulario ubicado a la derecha */
-.login-box {
-    width: 500px; /* Aumentamos el ancho del cuadro */
+/* Cuadro grande del formulario de Login ubicado a la derecha */
+.caja-derecha {
+    width: 500px;
     border: 2px solid #000000;
     padding: 30px;
-    float: right; /* Empuja todo el cuadro hacia la derecha de la pantalla */
-    margin-right: 80px; /* Deja un espacio de separación con el borde derecho */
+    float: right;
+    margin-right: 80px;
+    margin-top: 40px;
     background-color: #ffffff;
 }
 
-/* Alineación de los campos dentro del Login */
-.login-box input[type="number"],
-.login-box input[type="password"],
-.login-box select {
+/* Campos adaptados al ancho del cuadro de login */
+.caja-derecha input[type="number"],
+.caja-derecha input[type="password"],
+.caja-derecha select {
     width: 100%;
     padding: 6px;
     box-sizing: border-box;
 }
 
 /* Enlace Olvidé mi contraseña */
-.link-olvide {
+.caja-derecha .link-olvide {
     float: none;
     display: inline;
     padding: 0;
@@ -98,62 +98,8 @@ input, select, label, button {
     font-size: 13px;
 }
 
-/* Botón de Ingresar */
-.btn-ingresar {
-    padding: 8px 16px;
-    background-color: #e0e0e0;
-    border: 1px solid #000000;
-    cursor: pointer;
-    float: right; /* Lo ubica a la derecha como en el mockup */
-}
-
-
-
-/* Estilo para el cuadro grande de la izquierda */
-.caja-izquierda {
-    width: 45%;
-    border: 2px solid #000000;
-    padding: 25px;
-    float: left;
-    margin-left: 20px;
-    background-color: #ffffff;
-}
-
-/* Estilo para el cuadro grande de la derecha */
-.caja-derecha {
-    width: 45%;
-    border: 2px solid #000000;
-    padding: 25px;
-    float: right;
-    margin-right: 20px;
-    height: 450px; /* Le da altura para simular el cuadro del mockup */
-    background-color: #ffffff;
-    position: relative;
-}
-
-/* Campos dentro de la caja izquierda */
-.caja-izquierda input[type="number"],
-.caja-izquierda input[type="password"],
-.caja-izquierda select {
-    width: 100%;
-    padding: 6px;
-    box-sizing: border-box;
-}
-
-/* Enlace Olvide mi contraseña ubicado abajo a la derecha en su cuadro */
-.caja-derecha .link-olvide {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px 15px;
-    background-color: #e0e0e0;
-    border: 1px solid #000000;
-    color: #000000;
-    text-decoration: none;
-}
-
-/* Botón Enviar de la izquierda */
-.caja-izquierda .btn-ingresar {
+/* Botón de Ingresar en el login */
+.caja-derecha .btn-ingresar {
     padding: 8px 16px;
     background-color: #e0e0e0;
     border: 1px solid #000000;

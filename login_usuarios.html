@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>TECHZONE - celulares</title>
-	<link rel="stylesheet" href="estilos_css/estilo_index.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TECHZONE - celulares</title>
+    <link rel="stylesheet" href="estilos_css/estilo_index.css">
 </head>
 <body>
-<h1>TECH ZONE - celulares</h1>
-<br><br>
-<h1>Iniciar Sesión</h1>
-<form action="index.html">
 
-	<label>Ingresa tus datos para acceder al sistema</label>
-	<br><br>
-	<select name="login">
-		<option value="CC">Cédula de Ciudadanía</option>
-		<option value="CE">Cédula de Extranjeria</option>
-		<option value="TI">Tarjeta de Identidad</option>
-		<option value="PEP">PEP</option>
-		<option value="">Permiso por Protección Temporal</option>
-    <select>
-	<br><br>	
-    <label>Numero de documento</label>
-    <br><br>
-    <input type="number" name="id_usuario"  required>
-    <br><br>
-    <label>Password:</label>
-    <input type="password" name="password_usuario"  required>
-
-    <a href="recuperacion_password.html">Olvide mi contraseña</a>
-
-    <input type="submit" name="Ingresar">
-
-</form>
+    <!-- Cuadro grande del formulario ubicado a la derecha -->
+    <div class="caja-derecha">
+        <h2>Iniciar Sesión</h2>
+        <label>Ingresa tus datos para acceder al sistema</label>
+        
+        <form action="index.html">
+            <br>
+            <label>Tipo de Documento</label>
+            <br>
+            <select name="login">
+                <option value="CC">Cédula de Ciudadanía</option>
+                <option value="CE">Cédula de Extranjería</option>
+                <option value="TI">Tarjeta de Identidad</option>
+                <option value="PEP">PEP</option>
+                <option value="">Permiso por Protección Temporal</option>
+            </select>
+            
+            <br><br>
+            <label>Número de documento</label>
+            <br>
+            <input type="number" name="id_usuario" required>
+            
+            <br><br>
+            <label>Password:</label>
+            <br>
+            <input type="password" name="password_usuario" required>
+            
+            <br><br>
+            <a href="recuperacion_password.html" class="link-olvide">Olvidé mi contraseña</a>
+            
+            <br><br>
+            <input type="submit" name="Ingresar" value="Ingresar" class="btn-ingresar">
+        </form>
+    </div>
 
 </body>
 </html>
