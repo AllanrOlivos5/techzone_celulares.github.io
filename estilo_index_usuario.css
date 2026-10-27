@@ -1,0 +1,49 @@
+/* Aplicamos Arial Black a toda la página por defecto */
+body {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+/* Título principal */
+h1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+
+/* Contenedor general del menú de categorías del Index */
+.menu-categorias {
+    width: 200px;
+    border: 2px solid #000000;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Título de categorías */
+.menu-categorias h3 {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+/* Quitamos viñetas de la lista */
+.menu-categorias ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Espacio entre cada elemento de la lista */
+.menu-categorias li {
+    margin-bottom: 8px;
+}
+
+/* Botones internos de las categorías */
+.menu-categorias li a {
+    display: block;
+    padding: 8px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid #cccccc;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    float: none;
+    margin-right: 0;
+}
